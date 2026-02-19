@@ -1,0 +1,109 @@
+body {
+  background-color: #fff4ed;
+  color: #fffafa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+
+  color: #761f25;
+}
+
+#logo {
+  height: 230px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+label {
+  font-size: 20px;
+  color: #761f25;
+}
+
+#sobre {
+}
+
+.textForm {
+  background: #e54f79b8;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  color: #fffafd;
+  font-size: 100%;
+  border-width: 1px;
+  border-color: #761f25;
+  padding: 8px;
+  margin: 5px;
+}
+
+input[type="text"],
+[type="email"],
+[type="tel"],
+[type="password"] {
+  width: 95%;
+}
+
+input[type="date"] {
+  color: #761f25;
+
+  width: 18%;
+  height: 20%;
+  border-width: 1px;
+}
+
+input[type="radio"],
+[type="checkbox"] {
+  accent-color: #004aad;
+}
+
+input::placeholder {
+  color: #761f25;
+  opacity: 0.7;
+}
+
+#fotoPerfil {
+  background-color: transparent;
+}
+
+button {
+  background: #e54f79b8;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  font-size: 20px;
+  border-width: 1px;
+  padding: 10px;
+  color: #000000;
+  border-color: #761f25;
+  text-align: center;
+}
+
+::-webkit-file-upload-button {
+  background: rgba(255, 255, 255, 0.081);
+  color: #fffafa;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 5px;
+  border-color: #004bad63;
+  border-width: 1px;
+}
+
+#formulario {
+  display: block;
+  place-items: center;
+  border: #000000;
+  border-style: solid;
+  border-width: 5px;
+  background: #ee070749;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border-color: #ee070728;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
